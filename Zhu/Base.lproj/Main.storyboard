@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A238x" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="k5a-4Z-5i6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="k5a-4Z-5i6">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -39,11 +39,11 @@
             </objects>
             <point key="canvasLocation" x="943" y="-632"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - 个人志-->
         <scene sceneID="1lf-Ci-Hgc">
             <objects>
                 <navigationController definesPresentationContext="YES" id="p8y-f1-L3R" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="x5L-xf-xUd"/>
+                    <tabBarItem key="tabBarItem" title="个人志" image="user.png" id="x5L-xf-xUd"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RZw-f6-Ra1">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -84,11 +84,11 @@
             </objects>
             <point key="canvasLocation" x="943" y="854"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - 励志君-->
         <scene sceneID="tGL-WW-BPC">
             <objects>
                 <navigationController definesPresentationContext="YES" id="vAI-3H-h4t" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="topRated" id="iR2-DF-41R"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="励志君" image="winner.png" id="iR2-DF-41R"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UuO-vE-UEU">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -129,11 +129,11 @@
             </objects>
             <point key="canvasLocation" x="943" y="1588"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - 猪小球-->
         <scene sceneID="Rq4-gQ-wSC">
             <objects>
                 <navigationController definesPresentationContext="YES" id="ZOU-fs-SEg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="AXD-zG-A4n"/>
+                    <tabBarItem key="tabBarItem" tag="3" title="猪小球" image="picture.png" id="AXD-zG-A4n"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NER-3r-9VV">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -174,11 +174,11 @@
             </objects>
             <point key="canvasLocation" x="943" y="57"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - 小贴士-->
         <scene sceneID="iRJ-yj-855">
             <objects>
                 <navigationController definesPresentationContext="YES" id="scE-DW-90e" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="muS-mC-AYm"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="小贴士" image="tips.png" id="muS-mC-AYm"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="YYY-1l-VX3">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -195,7 +195,7 @@
             <objects>
                 <tabBarController id="k5a-4Z-5i6" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" selectionIndicatorImage="first" id="mYN-g0-IlL">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="mYN-g0-IlL">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -215,7 +215,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
+        <image name="picture.png" width="29" height="26"/>
+        <image name="tips.png" width="26" height="26"/>
+        <image name="user.png" width="26" height="26"/>
+        <image name="winner.png" width="26" height="26"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
