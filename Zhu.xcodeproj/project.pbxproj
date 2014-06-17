@@ -48,6 +48,7 @@
 		50F9B7F9194FE55000EDF817 /* tips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B7DF194FE55000EDF817 /* tips@2x.png */; };
 		50F9B7FA194FE55000EDF817 /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B7E0194FE55000EDF817 /* user@2x.png */; };
 		50F9B7FB194FE55000EDF817 /* winner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B7E1194FE55000EDF817 /* winner@2x.png */; };
+		50F9B7FD194FED5600EDF817 /* yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B7FC194FED5600EDF817 /* yellow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		50F9B7DF194FE55000EDF817 /* tips@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tips@2x.png"; path = "Images/tips@2x.png"; sourceTree = "<group>"; };
 		50F9B7E0194FE55000EDF817 /* user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user@2x.png"; path = "Images/user@2x.png"; sourceTree = "<group>"; };
 		50F9B7E1194FE55000EDF817 /* winner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "winner@2x.png"; path = "Images/winner@2x.png"; sourceTree = "<group>"; };
+		50F9B7FC194FED5600EDF817 /* yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yellow@2x.png"; path = "Images/yellow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +241,7 @@
 				50F9B7DF194FE55000EDF817 /* tips@2x.png */,
 				50F9B7E0194FE55000EDF817 /* user@2x.png */,
 				50F9B7E1194FE55000EDF817 /* winner@2x.png */,
+				50F9B7FC194FED5600EDF817 /* yellow@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				50F9B7E8194FE55000EDF817 /* 4pic7@2x.png in Resources */,
 				50F9B7E7194FE55000EDF817 /* 4pic6@2x.png in Resources */,
 				50F9B7F7194FE55000EDF817 /* picture@2x.png in Resources */,
+				50F9B7FD194FED5600EDF817 /* yellow@2x.png in Resources */,
 				50F9B7E2194FE55000EDF817 /* 4pic1@2x.png in Resources */,
 				50F9B7F0194FE55000EDF817 /* 6pic1@2x.png in Resources */,
 				50F9B7FB194FE55000EDF817 /* winner@2x.png in Resources */,

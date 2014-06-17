@@ -195,7 +195,7 @@
             <objects>
                 <tabBarController id="k5a-4Z-5i6" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="mYN-g0-IlL">
+                    <tabBar key="tabBar" contentMode="scaleToFill" selectionIndicatorImage="yellow.png" id="mYN-g0-IlL">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -219,6 +219,7 @@
         <image name="tips.png" width="26" height="26"/>
         <image name="user.png" width="26" height="26"/>
         <image name="winner.png" width="26" height="26"/>
+        <image name="yellow.png" width="80" height="49"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
