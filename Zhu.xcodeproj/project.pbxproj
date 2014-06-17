@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1013EBE5195091EC007FA262 /* AddRecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1013EBE4195091EC007FA262 /* AddRecordTableViewController.m */; };
+		103F781F19506CF2007AA3C5 /* TipTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 103F781E19506CF2007AA3C5 /* TipTableViewController.m */; };
+		105874A01950881C00A22ACB /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058749F1950881C00A22ACB /* SettingTableViewController.m */; };
+		105874A21950891100A22ACB /* ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 105874A11950891100A22ACB /* ok@2x.png */; };
+		105874A519508D4800A22ACB /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105874A419508D4800A22ACB /* RecordViewController.m */; };
+		10B1245219507EE300E07633 /* image1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B1245119507EE300E07633 /* image1@2x.png */; };
+		10B12455195080D700E07633 /* DiaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B12454195080D700E07633 /* DiaryTableViewController.m */; };
+		10B124571950828300E07633 /* bule2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B124561950828300E07633 /* bule2@2x.png */; };
 		10E0A3E6194F076000F4345E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E0A3E5194F076000F4345E /* Foundation.framework */; };
 		10E0A3E8194F076000F4345E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E0A3E7194F076000F4345E /* CoreGraphics.framework */; };
 		10E0A3EA194F076000F4345E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E0A3E9194F076000F4345E /* UIKit.framework */; };
@@ -69,6 +77,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1013EBE3195091EC007FA262 /* AddRecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRecordTableViewController.h; sourceTree = "<group>"; };
+		1013EBE4195091EC007FA262 /* AddRecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRecordTableViewController.m; sourceTree = "<group>"; };
+		103F781D19506CF2007AA3C5 /* TipTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipTableViewController.h; sourceTree = "<group>"; };
+		103F781E19506CF2007AA3C5 /* TipTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipTableViewController.m; sourceTree = "<group>"; };
+		1058749E1950881C00A22ACB /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		1058749F1950881C00A22ACB /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		105874A11950891100A22ACB /* ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ok@2x.png"; path = "Images/ok@2x.png"; sourceTree = "<group>"; };
+		105874A319508D4800A22ACB /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		105874A419508D4800A22ACB /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		10B1245119507EE300E07633 /* image1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image1@2x.png"; path = "Images/image1@2x.png"; sourceTree = "<group>"; };
+		10B12453195080D700E07633 /* DiaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryTableViewController.h; sourceTree = "<group>"; };
+		10B12454195080D700E07633 /* DiaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryTableViewController.m; sourceTree = "<group>"; };
+		10B124561950828300E07633 /* bule2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bule2@2x.png"; path = "Images/bule2@2x.png"; sourceTree = "<group>"; };
 		10E0A3E2194F076000F4345E /* Zhu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zhu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E0A3E5194F076000F4345E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		10E0A3E7194F076000F4345E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -193,6 +214,16 @@
 				10E0A3FE194F076000F4345E /* SecondViewController.m */,
 				50F9B80E19503E8700EDF817 /* LoginViewController.h */,
 				50F9B80F19503E8700EDF817 /* LoginViewController.m */,
+				103F781D19506CF2007AA3C5 /* TipTableViewController.h */,
+				103F781E19506CF2007AA3C5 /* TipTableViewController.m */,
+				10B12453195080D700E07633 /* DiaryTableViewController.h */,
+				10B12454195080D700E07633 /* DiaryTableViewController.m */,
+				1058749E1950881C00A22ACB /* SettingTableViewController.h */,
+				1058749F1950881C00A22ACB /* SettingTableViewController.m */,
+				105874A319508D4800A22ACB /* RecordViewController.h */,
+				105874A419508D4800A22ACB /* RecordViewController.m */,
+				1013EBE3195091EC007FA262 /* AddRecordTableViewController.h */,
+				1013EBE4195091EC007FA262 /* AddRecordTableViewController.m */,
 				50F9B7C7194FE53A00EDF817 /* Images */,
 				10E0A400194F076000F4345E /* Images.xcassets */,
 				10E0A3EC194F076000F4345E /* Supporting Files */,
@@ -265,6 +296,9 @@
 				50F9B80719503BB200EDF817 /* login2@2x.png */,
 				50F9B80819503BB200EDF817 /* right@2x.png */,
 				50F9B81119503F7000EDF817 /* navbarBg@2x.png */,
+				10B1245119507EE300E07633 /* image1@2x.png */,
+				10B124561950828300E07633 /* bule2@2x.png */,
+				105874A11950891100A22ACB /* ok@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -358,18 +392,21 @@
 				50F9B7F2194FE55000EDF817 /* 7pic2@2x.png in Resources */,
 				50F9B80B19503BB200EDF817 /* login1@2x.png in Resources */,
 				50F9B7F9194FE55000EDF817 /* tips@2x.png in Resources */,
+				10B1245219507EE300E07633 /* image1@2x.png in Resources */,
 				50F9B7FA194FE55000EDF817 /* user@2x.png in Resources */,
 				50F9B7E4194FE55000EDF817 /* 4pic3@2x.png in Resources */,
 				50F9B7F5194FE55000EDF817 /* icon@2x.png in Resources */,
 				50F9B80919503BB200EDF817 /* blue@2x.png in Resources */,
 				10E0A3F0194F076000F4345E /* InfoPlist.strings in Resources */,
 				50F9B7F3194FE55000EDF817 /* 8pic1@2x.png in Resources */,
+				10B124571950828300E07633 /* bule2@2x.png in Resources */,
 				50F9B7E9194FE55000EDF817 /* 4pic8@2x.png in Resources */,
 				50F9B7E8194FE55000EDF817 /* 4pic7@2x.png in Resources */,
 				50F9B80A19503BB200EDF817 /* left@2x.png in Resources */,
 				50F9B7E7194FE55000EDF817 /* 4pic6@2x.png in Resources */,
 				50F9B80D19503BB200EDF817 /* right@2x.png in Resources */,
 				50F9B7F7194FE55000EDF817 /* picture@2x.png in Resources */,
+				105874A21950891100A22ACB /* ok@2x.png in Resources */,
 				50F9B7FD194FED5600EDF817 /* yellow@2x.png in Resources */,
 				50F9B7E2194FE55000EDF817 /* 4pic1@2x.png in Resources */,
 				50F9B7F0194FE55000EDF817 /* 6pic1@2x.png in Resources */,
@@ -400,9 +437,14 @@
 			files = (
 				10E0A3FF194F076000F4345E /* SecondViewController.m in Sources */,
 				10E0A3F6194F076000F4345E /* AppDelegate.m in Sources */,
+				1013EBE5195091EC007FA262 /* AddRecordTableViewController.m in Sources */,
+				10B12455195080D700E07633 /* DiaryTableViewController.m in Sources */,
 				10E0A3FC194F076000F4345E /* FirstViewController.m in Sources */,
+				105874A01950881C00A22ACB /* SettingTableViewController.m in Sources */,
 				10E0A3F2194F076000F4345E /* main.m in Sources */,
+				105874A519508D4800A22ACB /* RecordViewController.m in Sources */,
 				50F9B81019503E8700EDF817 /* LoginViewController.m in Sources */,
+				103F781F19506CF2007AA3C5 /* TipTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
