@@ -49,6 +49,13 @@
 		50F9B7FA194FE55000EDF817 /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B7E0194FE55000EDF817 /* user@2x.png */; };
 		50F9B7FB194FE55000EDF817 /* winner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B7E1194FE55000EDF817 /* winner@2x.png */; };
 		50F9B7FD194FED5600EDF817 /* yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B7FC194FED5600EDF817 /* yellow@2x.png */; };
+		50F9B80919503BB200EDF817 /* blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B80419503BB200EDF817 /* blue@2x.png */; };
+		50F9B80A19503BB200EDF817 /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B80519503BB200EDF817 /* left@2x.png */; };
+		50F9B80B19503BB200EDF817 /* login1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B80619503BB200EDF817 /* login1@2x.png */; };
+		50F9B80C19503BB200EDF817 /* login2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B80719503BB200EDF817 /* login2@2x.png */; };
+		50F9B80D19503BB200EDF817 /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B80819503BB200EDF817 /* right@2x.png */; };
+		50F9B81019503E8700EDF817 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F9B80F19503E8700EDF817 /* LoginViewController.m */; };
+		50F9B81219503F7000EDF817 /* navbarBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B81119503F7000EDF817 /* navbarBg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +117,14 @@
 		50F9B7E0194FE55000EDF817 /* user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user@2x.png"; path = "Images/user@2x.png"; sourceTree = "<group>"; };
 		50F9B7E1194FE55000EDF817 /* winner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "winner@2x.png"; path = "Images/winner@2x.png"; sourceTree = "<group>"; };
 		50F9B7FC194FED5600EDF817 /* yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yellow@2x.png"; path = "Images/yellow@2x.png"; sourceTree = "<group>"; };
+		50F9B80419503BB200EDF817 /* blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue@2x.png"; path = "Images/blue@2x.png"; sourceTree = "<group>"; };
+		50F9B80519503BB200EDF817 /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "left@2x.png"; path = "Images/left@2x.png"; sourceTree = "<group>"; };
+		50F9B80619503BB200EDF817 /* login1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login1@2x.png"; path = "Images/login1@2x.png"; sourceTree = "<group>"; };
+		50F9B80719503BB200EDF817 /* login2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login2@2x.png"; path = "Images/login2@2x.png"; sourceTree = "<group>"; };
+		50F9B80819503BB200EDF817 /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right@2x.png"; path = "Images/right@2x.png"; sourceTree = "<group>"; };
+		50F9B80E19503E8700EDF817 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		50F9B80F19503E8700EDF817 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		50F9B81119503F7000EDF817 /* navbarBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navbarBg@2x.png"; path = "Images/navbarBg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +191,8 @@
 				10E0A3FB194F076000F4345E /* FirstViewController.m */,
 				10E0A3FD194F076000F4345E /* SecondViewController.h */,
 				10E0A3FE194F076000F4345E /* SecondViewController.m */,
+				50F9B80E19503E8700EDF817 /* LoginViewController.h */,
+				50F9B80F19503E8700EDF817 /* LoginViewController.m */,
 				50F9B7C7194FE53A00EDF817 /* Images */,
 				10E0A400194F076000F4345E /* Images.xcassets */,
 				10E0A3EC194F076000F4345E /* Supporting Files */,
@@ -242,6 +259,12 @@
 				50F9B7E0194FE55000EDF817 /* user@2x.png */,
 				50F9B7E1194FE55000EDF817 /* winner@2x.png */,
 				50F9B7FC194FED5600EDF817 /* yellow@2x.png */,
+				50F9B80419503BB200EDF817 /* blue@2x.png */,
+				50F9B80519503BB200EDF817 /* left@2x.png */,
+				50F9B80619503BB200EDF817 /* login1@2x.png */,
+				50F9B80719503BB200EDF817 /* login2@2x.png */,
+				50F9B80819503BB200EDF817 /* right@2x.png */,
+				50F9B81119503F7000EDF817 /* navbarBg@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -328,18 +351,24 @@
 				50F9B7E3194FE55000EDF817 /* 4pic2@2x.png in Resources */,
 				50F9B7F4194FE55000EDF817 /* chart@2x.png in Resources */,
 				50F9B7EF194FE55000EDF817 /* 5pic4@2x.png in Resources */,
+				50F9B80C19503BB200EDF817 /* login2@2x.png in Resources */,
 				10E0A401194F076000F4345E /* Images.xcassets in Resources */,
 				50F9B7ED194FE55000EDF817 /* 5pic2@2x.png in Resources */,
+				50F9B81219503F7000EDF817 /* navbarBg@2x.png in Resources */,
 				50F9B7F2194FE55000EDF817 /* 7pic2@2x.png in Resources */,
+				50F9B80B19503BB200EDF817 /* login1@2x.png in Resources */,
 				50F9B7F9194FE55000EDF817 /* tips@2x.png in Resources */,
 				50F9B7FA194FE55000EDF817 /* user@2x.png in Resources */,
 				50F9B7E4194FE55000EDF817 /* 4pic3@2x.png in Resources */,
 				50F9B7F5194FE55000EDF817 /* icon@2x.png in Resources */,
+				50F9B80919503BB200EDF817 /* blue@2x.png in Resources */,
 				10E0A3F0194F076000F4345E /* InfoPlist.strings in Resources */,
 				50F9B7F3194FE55000EDF817 /* 8pic1@2x.png in Resources */,
 				50F9B7E9194FE55000EDF817 /* 4pic8@2x.png in Resources */,
 				50F9B7E8194FE55000EDF817 /* 4pic7@2x.png in Resources */,
+				50F9B80A19503BB200EDF817 /* left@2x.png in Resources */,
 				50F9B7E7194FE55000EDF817 /* 4pic6@2x.png in Resources */,
+				50F9B80D19503BB200EDF817 /* right@2x.png in Resources */,
 				50F9B7F7194FE55000EDF817 /* picture@2x.png in Resources */,
 				50F9B7FD194FED5600EDF817 /* yellow@2x.png in Resources */,
 				50F9B7E2194FE55000EDF817 /* 4pic1@2x.png in Resources */,
@@ -373,6 +402,7 @@
 				10E0A3F6194F076000F4345E /* AppDelegate.m in Sources */,
 				10E0A3FC194F076000F4345E /* FirstViewController.m in Sources */,
 				10E0A3F2194F076000F4345E /* main.m in Sources */,
+				50F9B81019503E8700EDF817 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
