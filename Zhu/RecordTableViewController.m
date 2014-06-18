@@ -1,18 +1,18 @@
 //
-//  AddRecordTableViewController.m
+//  RecordTableViewController.m
 //  Zhu
 //
-//  Created by 朱艳秋 on 14/6/17.
+//  Created by Albert Mao on 6/18/14.
 //
 //
 
-#import "AddRecordTableViewController.h"
-
-@interface AddRecordTableViewController ()
+#import "RecordTableViewController.h"
+#import "LoginViewController.h"
+@interface RecordTableViewController ()
 
 @end
 
-@implementation AddRecordTableViewController
+@implementation RecordTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -34,16 +34,22 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-- (void)didReceiveMemoryWarning
+- (void) viewWillAppear:(BOOL)animated
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super viewWillAppear:animated];
+    if ([[LoginCenter sharedInstance] isLogin] == NO) {
+        [self tologin];
+    }
+    
 }
 
-- (IBAction)navbarDoneClick:(id)sender {
-    [self.navigationController popViewControllerAnimated:YES];
+- (void) tologin
+{
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    LoginViewController *loginView  = [story instantiateViewControllerWithIdentifier:@"LoginViewController"];
+    [self presentViewController:loginView animated:YES completion:nil];
 }
-#pragma mark - Table view data source
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -53,22 +59,36 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     
-    return 3;
+    return 4;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row == 2) {
-        return 268.0f;
+    switch (indexPath.row) {
+        case 0:
+            return 69;
+            break;
+        case 1:
+            return 146;
+            break;
+        case 2:
+            return 100.0f;
+            break;
+        case 3:
+            return 100.0f;
+            break;
+            
+        default:
+            return 100.0f;
+            break;
     }
-    return 43.0f;
     
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *strCellId;
-    strCellId = [NSString stringWithFormat:@"AddRecordCell%i",indexPath.row];
+    strCellId = [NSString stringWithFormat:@"CommentCell%i",indexPath.row];
     
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:strCellId];
@@ -80,11 +100,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-}
-
-- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
 }
 
 @end
