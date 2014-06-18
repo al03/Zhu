@@ -8,8 +8,8 @@
 
 #import "AddRecordTableViewController.h"
 
-@interface AddRecordTableViewController ()
-
+@interface AddRecordTableViewController ()<UIScrollViewDelegate, UITextViewDelegate>
+@property (nonatomic, strong) UITapGestureRecognizer *tap;
 @end
 
 @implementation AddRecordTableViewController
@@ -82,7 +82,35 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
+
+- (void) textViewDidBeginEditing:(UITextView *)textView
+{
+    if (self.tap == nil) {
+        self.tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction)];
+    }
+    [self.tableView addGestureRecognizer:self.tap];
+}
+
+- (void) tapAction
+{
+    [self hideKeyBoard];
+}
+
+- (void) textViewDidEndEditing:(UITextView *)textView
+
+{
+    if (self.tap) {
+        [self.tableView removeGestureRecognizer:self.tap];
+    }
+}
+
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self hideKeyBoard];
+}
+
+
+- (void) hideKeyBoard
 {
     [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
 }

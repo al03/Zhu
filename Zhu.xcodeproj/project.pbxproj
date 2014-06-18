@@ -33,6 +33,14 @@
 		509B978919512F82004E5666 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 509B978819512F82004E5666 /* MainViewController.m */; };
 		509B978C195170AA004E5666 /* LoginCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 509B978B195170AA004E5666 /* LoginCenter.m */; };
 		509B978F195177F5004E5666 /* RecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 509B978E195177F5004E5666 /* RecordTableViewController.m */; };
+		509B979219517EAC004E5666 /* RecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509B979119517EAC004E5666 /* RecordView.m */; };
+		509B979519518D69004E5666 /* ExperienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 509B979419518D69004E5666 /* ExperienceViewController.m */; };
+		509B979A1951935E004E5666 /* 8pic3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 509B97961951935E004E5666 /* 8pic3@2x.png */; };
+		509B979B1951935E004E5666 /* 8pic4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 509B97971951935E004E5666 /* 8pic4@2x.png */; };
+		509B979C1951935E004E5666 /* 8pic5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 509B97981951935E004E5666 /* 8pic5@2x.png */; };
+		509B979D1951935E004E5666 /* 8pic6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 509B97991951935E004E5666 /* 8pic6@2x.png */; };
+		509B97A019519C3E004E5666 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 509B979E19519C3E004E5666 /* iTunesArtwork.png */; };
+		509B97A119519C3E004E5666 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 509B979F19519C3E004E5666 /* iTunesArtwork@2x.png */; };
 		50F9B7E2194FE55000EDF817 /* 4pic1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B7C8194FE55000EDF817 /* 4pic1@2x.png */; };
 		50F9B7E3194FE55000EDF817 /* 4pic2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B7C9194FE55000EDF817 /* 4pic2@2x.png */; };
 		50F9B7E4194FE55000EDF817 /* 4pic3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F9B7CA194FE55000EDF817 /* 4pic3@2x.png */; };
@@ -119,6 +127,16 @@
 		509B978B195170AA004E5666 /* LoginCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCenter.m; sourceTree = "<group>"; };
 		509B978D195177F5004E5666 /* RecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewController.h; sourceTree = "<group>"; };
 		509B978E195177F5004E5666 /* RecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewController.m; sourceTree = "<group>"; };
+		509B979019517EAC004E5666 /* RecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordView.h; sourceTree = "<group>"; };
+		509B979119517EAC004E5666 /* RecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordView.m; sourceTree = "<group>"; };
+		509B979319518D69004E5666 /* ExperienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExperienceViewController.h; sourceTree = "<group>"; };
+		509B979419518D69004E5666 /* ExperienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExperienceViewController.m; sourceTree = "<group>"; };
+		509B97961951935E004E5666 /* 8pic3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "8pic3@2x.png"; path = "Images/8pic3@2x.png"; sourceTree = "<group>"; };
+		509B97971951935E004E5666 /* 8pic4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "8pic4@2x.png"; path = "Images/8pic4@2x.png"; sourceTree = "<group>"; };
+		509B97981951935E004E5666 /* 8pic5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "8pic5@2x.png"; path = "Images/8pic5@2x.png"; sourceTree = "<group>"; };
+		509B97991951935E004E5666 /* 8pic6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "8pic6@2x.png"; path = "Images/8pic6@2x.png"; sourceTree = "<group>"; };
+		509B979E19519C3E004E5666 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = Images/iTunesArtwork.png; sourceTree = "<group>"; };
+		509B979F19519C3E004E5666 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "Images/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		50F9B7C8194FE55000EDF817 /* 4pic1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4pic1@2x.png"; path = "Images/4pic1@2x.png"; sourceTree = "<group>"; };
 		50F9B7C9194FE55000EDF817 /* 4pic2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4pic2@2x.png"; path = "Images/4pic2@2x.png"; sourceTree = "<group>"; };
 		50F9B7CA194FE55000EDF817 /* 4pic3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4pic3@2x.png"; path = "Images/4pic3@2x.png"; sourceTree = "<group>"; };
@@ -228,6 +246,8 @@
 				103F781E19506CF2007AA3C5 /* TipTableViewController.m */,
 				10B12453195080D700E07633 /* DiaryTableViewController.h */,
 				10B12454195080D700E07633 /* DiaryTableViewController.m */,
+				509B979319518D69004E5666 /* ExperienceViewController.h */,
+				509B979419518D69004E5666 /* ExperienceViewController.m */,
 				1058749E1950881C00A22ACB /* SettingTableViewController.h */,
 				1058749F1950881C00A22ACB /* SettingTableViewController.m */,
 				509B978D195177F5004E5666 /* RecordTableViewController.h */,
@@ -236,6 +256,8 @@
 				1013EBE4195091EC007FA262 /* AddRecordTableViewController.m */,
 				509B978A195170AA004E5666 /* LoginCenter.h */,
 				509B978B195170AA004E5666 /* LoginCenter.m */,
+				509B979019517EAC004E5666 /* RecordView.h */,
+				509B979119517EAC004E5666 /* RecordView.m */,
 				50F9B7C7194FE53A00EDF817 /* Images */,
 				10E0A400194F076000F4345E /* Images.xcassets */,
 				10E0A3EC194F076000F4345E /* Supporting Files */,
@@ -275,6 +297,8 @@
 		50F9B7C7194FE53A00EDF817 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				509B979E19519C3E004E5666 /* iTunesArtwork.png */,
+				509B979F19519C3E004E5666 /* iTunesArtwork@2x.png */,
 				50F9B7C8194FE55000EDF817 /* 4pic1@2x.png */,
 				50F9B7C9194FE55000EDF817 /* 4pic2@2x.png */,
 				50F9B7CA194FE55000EDF817 /* 4pic3@2x.png */,
@@ -293,6 +317,10 @@
 				50F9B7D7194FE55000EDF817 /* 6pic2@2x.png */,
 				50F9B7D8194FE55000EDF817 /* 7pic2@2x.png */,
 				50F9B7D9194FE55000EDF817 /* 8pic1@2x.png */,
+				509B97961951935E004E5666 /* 8pic3@2x.png */,
+				509B97971951935E004E5666 /* 8pic4@2x.png */,
+				509B97981951935E004E5666 /* 8pic5@2x.png */,
+				509B97991951935E004E5666 /* 8pic6@2x.png */,
 				50F9B7DA194FE55000EDF817 /* chart@2x.png */,
 				50F9B7DB194FE55000EDF817 /* icon@2x.png */,
 				50F9B7DC194FE55000EDF817 /* log_in@2x.png */,
@@ -362,6 +390,9 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				TargetAttributes = {
+					10E0A3E1194F075F00F4345E = {
+						DevelopmentTeam = XV93JWHHTA;
+					};
 					10E0A405194F076000F4345E = {
 						TestTargetID = 10E0A3E1194F075F00F4345E;
 					};
@@ -396,10 +427,13 @@
 				50F9B7EC194FE55000EDF817 /* 5pic1@2x.png in Resources */,
 				50F9B7F6194FE55000EDF817 /* log_in@2x.png in Resources */,
 				50F9B7E3194FE55000EDF817 /* 4pic2@2x.png in Resources */,
+				509B979B1951935E004E5666 /* 8pic4@2x.png in Resources */,
 				50F9B7F4194FE55000EDF817 /* chart@2x.png in Resources */,
+				509B979D1951935E004E5666 /* 8pic6@2x.png in Resources */,
 				50F9B7EF194FE55000EDF817 /* 5pic4@2x.png in Resources */,
 				50F9B80C19503BB200EDF817 /* login2@2x.png in Resources */,
 				10E0A401194F076000F4345E /* Images.xcassets in Resources */,
+				509B979A1951935E004E5666 /* 8pic3@2x.png in Resources */,
 				50F9B7ED194FE55000EDF817 /* 5pic2@2x.png in Resources */,
 				50F9B81219503F7000EDF817 /* navbarBg@2x.png in Resources */,
 				50F9B7F2194FE55000EDF817 /* 7pic2@2x.png in Resources */,
@@ -407,6 +441,7 @@
 				50F9B7F9194FE55000EDF817 /* tips@2x.png in Resources */,
 				10B1245219507EE300E07633 /* image1@2x.png in Resources */,
 				50F9B7FA194FE55000EDF817 /* user@2x.png in Resources */,
+				509B979C1951935E004E5666 /* 8pic5@2x.png in Resources */,
 				50F9B7E4194FE55000EDF817 /* 4pic3@2x.png in Resources */,
 				50F9B7F5194FE55000EDF817 /* icon@2x.png in Resources */,
 				50F9B80919503BB200EDF817 /* blue@2x.png in Resources */,
@@ -420,6 +455,7 @@
 				50F9B7E7194FE55000EDF817 /* 4pic6@2x.png in Resources */,
 				50F9B80D19503BB200EDF817 /* right@2x.png in Resources */,
 				50F9B7F7194FE55000EDF817 /* picture@2x.png in Resources */,
+				509B97A019519C3E004E5666 /* iTunesArtwork.png in Resources */,
 				105874A21950891100A22ACB /* ok@2x.png in Resources */,
 				50F9B7FD194FED5600EDF817 /* yellow@2x.png in Resources */,
 				50F9B7E2194FE55000EDF817 /* 4pic1@2x.png in Resources */,
@@ -431,6 +467,7 @@
 				50F9B7EE194FE55000EDF817 /* 5pic3@2x.png in Resources */,
 				50F9B7EA194FE55000EDF817 /* 4pic9@2x.png in Resources */,
 				10E0A3F9194F076000F4345E /* Main.storyboard in Resources */,
+				509B97A119519C3E004E5666 /* iTunesArtwork@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,9 +492,11 @@
 				1013EBE5195091EC007FA262 /* AddRecordTableViewController.m in Sources */,
 				10B12455195080D700E07633 /* DiaryTableViewController.m in Sources */,
 				509B978F195177F5004E5666 /* RecordTableViewController.m in Sources */,
+				509B979219517EAC004E5666 /* RecordView.m in Sources */,
 				10E0A3FC194F076000F4345E /* FirstViewController.m in Sources */,
 				509B978C195170AA004E5666 /* LoginCenter.m in Sources */,
 				105874A01950881C00A22ACB /* SettingTableViewController.m in Sources */,
+				509B979519518D69004E5666 /* ExperienceViewController.m in Sources */,
 				10E0A3F2194F076000F4345E /* main.m in Sources */,
 				50F9B81019503E8700EDF817 /* LoginViewController.m in Sources */,
 				103F781F19506CF2007AA3C5 /* TipTableViewController.m in Sources */,
@@ -526,7 +565,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jingqi Yang (6Q3T96D7VJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jingqi Yang (6Q3T96D7VJ)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -564,7 +604,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Infinite Impression Network Technology Co. Ltd (XV93JWHHTA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Infinite Impression Network Technology Co. Ltd (XV93JWHHTA)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -585,6 +626,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jingqi Yang (6Q3T96D7VJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jingqi Yang (6Q3T96D7VJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Zhu/Zhu-Prefix.pch";
 				INFOPLIST_FILE = "Zhu/Zhu-Info.plist";
@@ -598,6 +641,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Infinite Impression Network Technology Co. Ltd (XV93JWHHTA)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Zhu/Zhu-Prefix.pch";
 				INFOPLIST_FILE = "Zhu/Zhu-Info.plist";
