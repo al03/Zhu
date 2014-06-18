@@ -115,4 +115,65 @@
     [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
 }
 
+
+
+
+#pragma - mark photo
+
+
+//照片
+- (void) showPhotoActionSheet
+{
+    UIActionSheet *actionSheet = [[UIActionSheet alloc]init];
+    actionSheet.delegate = self;
+    
+    [actionSheet addButtonWithTitle:@"相册选取"];
+    [actionSheet addButtonWithTitle:@"相机拍摄"];
+    [actionSheet addButtonWithTitle:@"取消"];
+    
+    [actionSheet setCancelButtonIndex:2];
+    [actionSheet showInView:self.view];
+}
+
+- (void) actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    UIImagePickerController *picker = [[UIImagePickerController alloc]init];
+    picker.delegate = self;
+    switch (buttonIndex) {
+        case 0:
+        {
+            picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+        }
+            break;
+        case 1:
+        {
+#if TARGET_IPHONE_SIMULATOR
+            return;
+#endif
+            picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+            picker.cameraDevice = UIImagePickerControllerCameraDeviceRear;
+        }
+            break;
+        case 2:
+        {
+            return;
+        }
+            break;
+            
+        default:
+            break;
+    }
+    [self presentViewController:picker animated:YES completion:nil];
+}
+
+- (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    UIImage* image = [info objectForKey: UIImagePickerControllerOriginalImage];
+    
+    self.imageAvatar.image = image;
+    [picker dismissViewControllerAnimated:YES completion:nil];
+    
+}
+
+
 @end
