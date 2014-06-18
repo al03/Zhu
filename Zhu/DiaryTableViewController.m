@@ -7,7 +7,7 @@
 //
 
 #import "DiaryTableViewController.h"
-
+#import "RecordView.h"
 @interface DiaryTableViewController ()
 
 @end

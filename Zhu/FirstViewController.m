@@ -26,6 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnFollowClick:(id)sender
+{
+    UIButton *btn = sender;
+    [btn setTitle:@"已关注" forState:UIControlStateNormal];
+
+}
+
 #pragma mark - table
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

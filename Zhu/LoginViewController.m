@@ -7,9 +7,10 @@
 //
 
 #import "LoginViewController.h"
-
-@interface LoginViewController ()
-
+#import "LoginCenter.h"
+@interface LoginViewController ()<UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollContainer;
+@property(nonatomic, assign) BOOL wcrRegister;
 @end
 
 @implementation LoginViewController
@@ -26,6 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.scrollContainer.contentSize = CGSizeMake(640, self.scrollContainer.frame.size.height);
     // Do any additional setup after loading the view.
 }
 
@@ -34,16 +36,63 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)btnLoginClick:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+    [[LoginCenter sharedInstance] login];
 }
-*/
+- (IBAction)btnToRegisterClick:(id)sender {
+    [self.scrollContainer setContentOffset:CGPointMake(320.0f, 0) animated:YES];
+    self.wcrRegister = YES;
+}
+
+- (IBAction)btnBackLoginClick:(id)sender {
+    [self.scrollContainer setContentOffset:CGPointMake(0.0f, 0) animated:YES];
+    self.wcrRegister = NO;
+}
+
+- (IBAction)btnRegisterClick:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void) textFieldDidBeginEditing:(UITextField *)textField
+{
+    [UIView animateKeyframesWithDuration:0.2 delay:0.0 options:UIViewKeyframeAnimationOptionCalculationModeLinear animations:^{
+        self.view.frame = CGRectMake(self.view.frame.origin.x,self.wcrRegister ? -200 : -130, self.view.frame.size.width, self.view.frame.size.height);
+    } completion:^(BOOL finished) {
+        
+    }];
+}
+
+- (BOOL) textFieldShouldReturn:(UITextField *)textField
+{
+    [self hideKeyBoard];
+    [self animationBack];
+    return YES;
+}
+
+- (void) textFieldDidEndEditing:(UITextField *)textField
+{
+}
+
+- (void) animationBack
+{
+    [UIView animateKeyframesWithDuration:0.2 delay:0.0 options:UIViewKeyframeAnimationOptionCalculationModeLinear animations:^{
+        self.view.frame = CGRectMake(self.view.frame.origin.x, 0, self.view.frame.size.width, self.view.frame.size.height);
+    } completion:^(BOOL finished) {
+        
+    }];
+
+}
+
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self hideKeyBoard];
+    [self animationBack];
+}
+
+- (void) hideKeyBoard
+{
+    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
+}
 
 @end
